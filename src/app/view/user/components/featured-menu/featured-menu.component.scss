@@ -1,0 +1,47 @@
+.container {
+    height: 797px;
+    width: 500px;
+}
+
+mat-card {
+    width: 245px !important;
+    height: 361px !important;
+    font-family: poppins !important;
+
+    margin: 24px 13px !important;
+}
+
+mat-card-actions {
+    top: 5px !important;
+    margin-left: 16px;
+}
+
+mat-card-header {
+    height: 187px;
+}
+
+p{
+    line-height: 5px !important;
+}
+
+.badge {
+    background-color: #E5EEFB;
+    color: #0F5EDD;
+}
+
+.strong-blue{
+    color: #0F5EDD;
+}
+
+.icon-height {
+    height: 32px;
+}
+
+.grey {
+    color: #5F5F5F;
+}
+
+.btn {
+    width: 194px !important;
+    height: 40px !important;
+}

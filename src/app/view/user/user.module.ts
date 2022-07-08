@@ -13,6 +13,8 @@ import { UcarsDefinitionComponent } from './components/ucars-definition/ucars-de
 import { UcarsQuestionsComponent } from './components/ucars-questions/ucars-questions.component';
 import { MenuContentComponent } from './components/menu-content/menu-content.component';
 import { FlowInfoComponent } from './components/flow-info/flow-info.component';
+import { FeaturedMenuComponent } from './components/featured-menu/featured-menu.component';
+import { OwlModule } from 'ngx-owl-carousel';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { FlowInfoComponent } from './components/flow-info/flow-info.component';
     UcarsDefinitionComponent,
     UcarsQuestionsComponent,
     FlowInfoComponent,
+    FeaturedMenuComponent,
   ],
-  imports: [CommonModule, UserRoutingModule, MaterialModule],
+  imports: [CommonModule, UserRoutingModule, MaterialModule, OwlModule],
 })
 export class UserModule {}
