@@ -1,0 +1,26 @@
+.admin-sidenav{
+    background-color: #323435;
+    width: 240px;
+    padding-left: 16px;
+    padding-right: 26px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.admin-header{
+    padding: 16px;
+    padding-right: 24px;
+    display: flex;
+    height: 64px;
+    align-items: center;
+    border-bottom: 0.5px solid #cecece;
+    justify-content: flex-end;
+}
+
+.admin-content{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}

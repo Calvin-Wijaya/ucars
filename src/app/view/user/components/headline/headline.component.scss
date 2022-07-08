@@ -1,0 +1,30 @@
+.headline{
+    width: auto;
+    height: 529px;
+    color: white;
+    background: url('../../../../../assets/img/headline.jpg');
+}
+
+h1{
+    line-height: 36px;
+}
+
+p {
+    line-height: 10px;
+    font-family: inter !important;
+    font-weight: 400 !important;
+}
+
+button {
+    font-family: poppins !important;
+    font-weight: 600 !important;
+    width: 196px !important;
+    height: 52px !important;
+}
+
+.headline-text {
+    position: relative;
+    top: 97px;
+    left: 108px;
+    width: 540px ;
+}
