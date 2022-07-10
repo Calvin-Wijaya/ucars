@@ -2,7 +2,7 @@
   <mat-card>
     <div class="flex-4">
       <div class="col">
-        <h4>New/ Used</h4>
+        <h4>New / Used</h4>
         <mat-form-field appearance="fill">
           <mat-label>New Cars</mat-label>
           <mat-select>
@@ -15,40 +15,73 @@
 
       <div class="col">
         <h4>Price Range</h4>
+        <div class="d-flex justify-content-between">
+          <mat-form-field appearance="fill">
+            <mat-label>
+              <img src="./assets/icon/dolar.svg" />
+              Enter Min Price
+            </mat-label>
+            <input matInput #input placeholder="10,0000" />
+          </mat-form-field>
+          <p>-</p>
+          <mat-form-field appearance="fill">
+            <mat-label>
+              <img src="./assets/icon/dolar.svg" />
+              Enter Max Price
+            </mat-label>
+            <input matInput #input placeholder="100,0000" />
+          </mat-form-field>
+        </div>
+      </div>
+
+      <!-- <div class="col">
         <mat-form-field appearance="fill">
           <mat-label>New Cars</mat-label>
-          <button mat-button [matMenuTriggerFor]="menu">
-            <img src="../../../../../assets/icon/dolar.svg" />
+          <mat-select>
+            <img src="./assets/icon/dolar.svg" />
             <mat-label>{{ money }}</mat-label>
             -
-            <img src="../../../../../assets/icon/dolar.svg" />
+            <img src="./assets/icon/dolar.svg" />
             <mat-label>{{ money }}</mat-label>
-          </button>
+          </mat-select>
           <mat-menu #menu="matMenu">
             <mat-form-field appearance="outline">
-              <mat-label>Outline form field</mat-label>
-              <input matInput placeholder="Placeholder" />
-              <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+              <mat-label>Min</mat-label>
+              <input matInput placeholder="type Price" />
+              <mat-icon matSuffix
+                ><img src="./assets/icon/dolar.svg"
+              /></mat-icon>
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Max</mat-label>
+              <input matInput placeholder="type Price" />
+              <mat-icon matSuffix
+                ><img src="./assets/icon/dolar.svg"
+              /></mat-icon>
               <mat-hint>Hint</mat-hint>
             </mat-form-field>
           </mat-menu>
         </mat-form-field>
-      </div>
+      </div> -->
 
       <div class="col">
-        <h4>Price Range</h4>
+        <h4>Vehicle Type</h4>
         <mat-form-field appearance="fill">
-          <mat-label>New Cars</mat-label>
-          <mat-select>
-            <mat-option *ngFor="let used of using" [value]="used">
-              <mat-radio-button>{{ used }}</mat-radio-button>
-            </mat-option>
+          <mat-label>Select Vehicle</mat-label>
+          <mat-select formControlName="toppings" multiple>
+            <mat-option *ngFor="let vehicle of vehicleList" [value]="vehicle">{{
+              vehicle
+            }}</mat-option>
           </mat-select>
         </mat-form-field>
       </div>
 
-      <div class="col">
-        <button mat-flat-button class="btn-red">Search</button>
+      <div class="d-flex">
+        <div class="btn-mid">
+          <button mat-flat-button class="btn-red">
+            <strong>Search</strong>
+          </button>
+        </div>
       </div>
     </div>
   </mat-card>

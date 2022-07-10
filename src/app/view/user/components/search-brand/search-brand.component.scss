@@ -1,13 +1,37 @@
 .container {
     margin: 0 62px !important;
+
+    position: relative !important;
+    bottom: 80px !important;
+
 }
 
 mat-card {
     height: 139px;
+    font-family: poppins !important;
 }
 
 .flex-4 {
     display: flex !important;
     flex: 4 !important;
     justify-content: space-between !important;
+}
+
+mat-label {
+    padding-left: 5px !important;
+}
+
+mat-form-field {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+button {
+    width: 140px !important;
+    height: 60px !important;
+}
+
+.btn-mid {
+    display: flex !important; 
+    align-items: center !important;
 }
