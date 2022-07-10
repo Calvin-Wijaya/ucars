@@ -1,8 +1,9 @@
 .headline{
-    width: auto;
-    height: 529px;
-    color: white;
+    width: auto !important;
+    height: 529px !important;
+    color: white !important;
     background: url('../../../../../assets/img/headline.jpg');
+    background-repeat: no-repeat !important;
 }
 
 h1{
