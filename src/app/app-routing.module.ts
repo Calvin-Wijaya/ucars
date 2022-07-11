@@ -7,17 +7,27 @@ const routes: Routes = [
     loadChildren: () =>
       import('./view/user/user.module').then((m) => m.UserModule),
   },
-  { path: 'admin', loadChildren: () => import('./view/admin/admin.module').then(m => m.AdminModule) },
+  {
+    path: 'admin',
+    loadChildren: () =>
+      import('./view/admin/admin.module').then((m) => m.AdminModule),
+  },
   {
     path: '',
     redirectTo: 'user',
     pathMatch: 'full',
   },
-  
+  {
+    path: 'user-mobile',
+    loadChildren: () =>
+      import('./view/user-mobile/user-mobile.module').then(
+        (m) => m.UserMobileModule
+      ),
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
