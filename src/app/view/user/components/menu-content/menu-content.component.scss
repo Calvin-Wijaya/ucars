@@ -1,24 +1,15 @@
 mat-card {
-    width: 245px !important;
+    width: 255px !important;
     height: 345px !important;
     font-family: poppins !important;
 
     margin: 12px 12px !important;
 }
 
-.container {
-    width: auto !important;
-    margin: 80px 62px !important;
-}
-
 mat-card-actions {
     top: 5px !important;
-    margin-left: 16px;
 }
 
-p{
-    line-height: 5px !important;
-}
 
 mat-card-header {
     height: 187px;

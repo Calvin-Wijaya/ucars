@@ -113,6 +113,11 @@ button{margin: 10px;}
   padding-right: 8px !important;
 }
 
+.px-80{
+  padding-left: 80px !important;
+  padding-right: 80px !important;
+}
+
 .px-60{
   padding-left: 60px !important;
   padding-right: 60px !important;
@@ -144,6 +149,7 @@ button{margin: 10px;}
   padding-left: 90px !important;
   padding-right: 90px !important;
 }
+
 .px-96{
   padding-left: 96px !important;
   padding-right: 96px !important;
@@ -191,6 +197,7 @@ button{margin: 10px;}
 .pl-32{padding-left: 32px !important;}
 .pl-80{padding-left: 80px !important;}
 .pr-8{padding-right: 8px !important;}
+.pr-12{padding-right: 12px !important;}
 .pr-16{padding-right: 16px !important;}
 .pr-24{padding-right: 24px !important;}
 .pr-32{padding-right: 32px !important;}
@@ -217,32 +224,6 @@ button{margin: 10px;}
 
 ul li{list-style: none; text-decoration: none;}
 
-.d-flex {
-  display: flex !important;
-}
-
-.flex-column {
-  display: flex !important;
-  flex-direction: column !important;
-}
-
-.justify-content-center {
-  justify-content: center !important;
-}
-
-.justify-content-end {
-  justify-content: end !important;
-}
-.justify-content-between {
-  justify-content: space-between !important;
-}
-.align-items-center {
-  align-items: center !important;
-}
-.align-items-start {
-  align-items: flex-start !important;
-}
-
 .mat-card-header-text{
     margin: 0 !important;
 }
@@ -258,9 +239,6 @@ ul li{list-style: none; text-decoration: none;}
     text-transform: capitalize !important;
 }
 .text-center{text-align: center !important;}
-
-.h4{ font-weight: 500 !important;}
-.w-100{width: 100%;}
 
 .cursor-pointer{cursor: pointer;}
 .overflow-auto{overflow: auto;}
@@ -330,10 +308,4 @@ ul li{list-style: none; text-decoration: none;}
   .mat-form-field-ripple{
     height: 0 !important;
   }
-}
-
-.col {flex-direction: column !important;}
-
-.btn-outline-danger{
-  color: #EE1B24 !important;
 }

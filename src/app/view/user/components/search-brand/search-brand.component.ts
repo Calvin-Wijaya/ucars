@@ -13,8 +13,6 @@ export class SearchBrandComponent implements OnInit {
     'Used Cars',
   ];
 
-  money = 'price';
-
   toppings = new FormControl('');
   vehicleList: string[] = [
     'Bus',

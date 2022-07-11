@@ -1,17 +1,14 @@
-.container {
+.h-797 {
     height: 797px !important;
-    width: auto !important;
-
-   
 }
 
 .wrapper {
-    overflow-x: auto !important;
+    overflow-x:auto !important;
 }
 
-.wrapper::-webkit-scrollbar{
-    width: 0 !important;
-}
+// .wrapper::-webkit-scrollbar{
+//     width: 1px !important;
+// }
 
 .img-cover {
     background-size: cover !important;
@@ -24,15 +21,6 @@ mat-card-actions {
 
 .vertical-align-middle {
     vertical-align: middle !important;
-}
-
-p {
-    margin: 0 !important;
-}
-
-h1 {
-    line-height: 0px !important;
-    padding-bottom: 7px !important;
 }
 
 button {
