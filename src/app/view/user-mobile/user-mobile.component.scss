@@ -5,3 +5,19 @@
     flex-direction: row !important;
     justify-content: space-between !important;
 }
+
+.circle{
+    background-color: #F1F1F1;
+    border-radius: 100%;
+    width: 42px !important;
+    height: 42px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.scroll {
+    width: auto;
+    overflow-x: auto;
+}
